@@ -4,9 +4,7 @@ const IdCard = ({ name, role, department, id, avatar }) => {
   return (
     <div className="bg-white shadow-lg rounded-xl p-5 w-80 border border-gray-200">
       <div className="flex items-center gap-4">
-        <img
-          src={avatar}
-          alt={name}
+        <img src={avatar} alt={name} 
           className="w-20 h-20 rounded-full object-cover border-2 border-blue-500"
         />
 

@@ -5,11 +5,13 @@ import './App.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center py-10 gap-6">
-
-      <h1 className="text-3xl font-bold mb-6">
+    <>
+      
+      <h1 className="text-3xl font-bold text-center text-gray-800 pt-30">
         Company ID Cards
       </h1>
+
+      <div className="min-h-screen flex flex-row ml-50 items-center py-8 gap-6">
 
       <IdCard
         id="EMP-001"
@@ -35,7 +37,9 @@ function App() {
         avatar="https://images.unsplash.com/photo-1716648311202-39020e3b89fc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlJTIwcHJvZmlsZSUyMHBpY3R1cmVzfGVufDB8fDB8fHww"
       />
 
-    </div>
+      </div>
+
+    </>
   );
 }
 
