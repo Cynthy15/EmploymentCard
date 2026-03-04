@@ -18,7 +18,7 @@ This project demonstrates React fundamentals such as component reusability, prop
 src/
 │
 ├── components/
-│   └── IdCard.jsx
+│   └── Card.jsx
 │
 ├── App.jsx
 ├── main.jsx
