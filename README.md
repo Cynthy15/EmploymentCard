@@ -43,7 +43,7 @@ src/
 
 ## Concepts Demonstrated
 
-* JSX
+* JSX files
 * Functional Components
 * Props
 * Component Reusability
