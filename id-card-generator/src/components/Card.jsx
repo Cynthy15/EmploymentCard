@@ -1,10 +1,12 @@
 import React from 'react';
 
-const IdCard = ({ name, role, department, id, avatar }) => {
+const IdCard = ({ name, role, department, avatar, id }) => {
   return (
-    <div className="bg-white shadow-lg rounded-xl p-5 w-80 border border-gray-200">
+    <div className="bg-white shadow-lg rounded-xl p-5 w-80 border border-gray-200 hover:scale-105 transition-transform">
       <div className="flex items-center gap-4">
-        <img src={avatar} alt={name} 
+        <img
+          src={avatar}
+          alt={name}
           className="w-20 h-20 rounded-full object-cover border-2 border-blue-500"
         />
 
@@ -15,7 +17,7 @@ const IdCard = ({ name, role, department, id, avatar }) => {
       </div>
 
       <div className="mt-4 border-t pt-3 text-sm text-gray-700">
-        <p><span className="font-semibold">ID:</span> {id}</p>
+        <p><span className="font-semibold">ID:</span> #{id}</p>
         <p><span className="font-semibold">Department:</span> {department}</p>
       </div>
     </div>
