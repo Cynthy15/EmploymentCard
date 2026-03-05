@@ -11,7 +11,7 @@ function App() {
         Company ID Cards
       </h1>
 
-      <div className="min-h-screen flex flex-row ml-50 items-center py-8 gap-6">
+      <div className=" py-8 flex flex-row ml-50 items-center gap-6">
 
       <IdCard
         id="EMP-001"
